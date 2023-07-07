@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "hypoxia",
+  "version": "${version}",
+  "name": "difficulty up",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/youseeseeyouself/hypoxia.git"
+  },
+  "license": "MIT",
+  "icon": "assets/hypoxia/logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.rice.hypoxia.client.HypoxiaClient"
+    ],
+    "main": [
+      "com.rice.hypoxia.Hypoxia"
+    ]
+  },
+  "mixins": [
+    "hypoxia.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "1.19.4"
+  }
+}
